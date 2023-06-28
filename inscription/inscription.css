@@ -1,0 +1,160 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #007BFF;
+}
+
+/*header*/
+header {
+    width: 100%;
+    height: 66px;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: -80px;
+}
+
+
+.inner {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.login-link {
+    border: 2px solid #007BFF;
+    color: #007BFF;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+.login-link:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/*Fin header*/
+
+
+.mail{
+    background-color: #ffffff;  /* Définit la couleur d'arrière-plan de l'élément .inputbox en blanc */
+    width: 90%;  /* Définit la largeur de l'élément .inputbox à 90% de la largeur de l'élément parent */
+    max-width: 500px;  /* Définit la largeur maximale de l'élément .inputbox à 500px */
+    border-radius: 10px;  /* Arrondit les coins de l'élément .inputbox avec un rayon de 10px */
+    padding: 10px 20px;  /* Ajoute un espace à l'intérieur de l'élément .inputbox de 10px en haut et en bas et de 20px à gauche et à droite */
+    display: flex;  /* Applique un layout flexible à l'élément .inputbox, ce qui signifie que les éléments enfants seront disposés en ligne ou en colonne en fonction des autres propriétés */
+    align-items: center;  /* Centre verticalement les éléments enfants de l'élément .inputbox */
+    flex-direction: row;  /* Arrange les éléments enfants de l'élément .inputbox en ligne horizontale */
+    justify-content: center;  /* Centre horizontalement les éléments enfants de l'élément .inputbox */
+    border: 1px solid black;
+}
+
+.mail input{
+    width: 100%;  /* Définit la largeur des éléments <input> dans .inputbox à 100% de la largeur de .inputbox */
+    padding: 10px 0;  /* Ajoute un espace à l'intérieur des éléments <input> de 10px en haut et en bas et de 0px à gauche et à droite */
+    border: 0;  /* Supprime la bordure des éléments <input> */
+    outline: 0;  /* Supprime le contour qui apparaît lorsque l'élément <input> est focalisé */
+    font-size: 16px;  /* Définit la taille de la police des éléments <input> à 16px */
+    color: #555;  /* Définit la couleur du texte dans les éléments <input> à un gris foncé (#555) */
+}
+.fa-regular.fa-envelope{
+    margin-right: 10px;
+}
+  .password{
+    background-color: #fff;  /* Définit la couleur d'arrière-plan de l'élément .inputbox en blanc */
+    width: 90%;  /* Définit la largeur de l'élément .inputbox à 90% de la largeur de l'élément parent */
+    max-width: 500px;  /* Définit la largeur maximale de l'élément .inputbox à 500px */
+    border-radius: 10px;  /* Arrondit les coins de l'élément .inputbox avec un rayon de 10px */
+    padding: 10px 20px;  /* Ajoute un espace à l'intérieur de l'élément .inputbox de 10px en haut et en bas et de 20px à gauche et à droite */
+    display: flex;  /* Applique un layout flexible à l'élément .inputbox, ce qui signifie que les éléments enfants seront disposés en ligne ou en colonne en fonction des autres propriétés */
+    align-items: center;  /* Centre verticalement les éléments enfants de l'élément .inputbox */
+    flex-direction: row;  /* Arrange les éléments enfants de l'élément .inputbox en ligne horizontale */
+    justify-content: center;  /* Centre horizontalement les éléments enfants de l'élément .inputbox */
+    border: 1px solid black;
+}
+
+.password input{
+    width: 100%;  /* Définit la largeur des éléments <input> dans .inputbox à 100% de la largeur de .inputbox */
+    padding: 10px 0;  /* Ajoute un espace à l'intérieur des éléments <input> de 10px en haut et en bas et de 0px à gauche et à droite */
+    border: 0;  /* Supprime la bordure des éléments <input> */
+    outline: 0;  /* Supprime le contour qui apparaît lorsque l'élément <input> est focalisé */
+    font-size: 16px;  /* Définit la taille de la police des éléments <input> à 16px */
+    color: #555;  /* Définit la couleur du texte dans les éléments <input> à un gris foncé (#555) */
+}
+
+.fa-sharp.fa-regular.fa-eye-slash{
+    cursor: pointer;
+}
+
+
+.fa-solid.fa-lock{
+    margin-right: 10px; /* Ajoutez de l'espace à droite de l'icône de verrou */
+  }
+.fa-instagram{
+    color: #E1306C;
+   font-size: 48px;
+   margin-right: 10px;
+  }
+  
+  .fa-facebook{
+    color: #3b5998;
+   font-size: 48px;
+   margin-right: 10px;
+  }
+  
+  .fa-twitter{
+    color: #1DA1F2;
+   font-size: 48px;
+  }
+  
+  .textfooter{
+    font-size: 20px;
+  }
+  
+  footer{background-color: aqua;}
+  
+  .container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+  }
+  
+  .copyright{
+    align-self: flex-end;
+  }
+  
+  .social-icons{
+    margin-top: 10px;
+  }
+  
+  .nouscontacter{
+    border: 1px solid black;
+      border-radius: 8px;
+      text-decoration: none;
+      
+      transition: all 0.2s ease 0s;
+      padding: 10px;
+  }
+  
+  .nouscontacter:hover {
+    background-color: beige;
+    
+    cursor: pointer;
+  }
+  
+  

@@ -1,0 +1,198 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+/*header*/
+header {
+    width: 100%;
+    height: 66px;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: -80px;
+}
+
+
+.inner {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.login-link {
+    border: 2px solid #007BFF;
+    color: #007BFF;
+    padding: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+.login-link:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/*Fin header*/
+
+/*main*/
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.titrephrase {
+    width: 40%;
+    text-align: center;
+    font-size: 25px;
+
+}
+input[type=email] {
+    width: 25%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    background-image: url('mail.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding: 12px 20px 12px 40px;
+  }
+  input[type=email]:focus {
+    outline: none; /* Cela supprime l'outline bleu par défaut */
+    border: 2px solid #007BFF; /* Cela change la couleur de la bordure en bleu lorsque l'input est actif */
+}
+  .mail{
+    display: flex;
+    justify-content: center;
+  }
+
+  .mail button {
+    /* styles pour le bouton */
+    /* par exemple */
+    background-color: #007bff; /* couleur d'arrière-plan */
+    color: white; /* couleur du texte */
+    border: none; /* supprime la bordure par défaut */
+    border-radius: 10px;
+    padding: 10px 20px; /* espace intérieur autour du texte */
+    cursor: pointer; /* change le curseur en une main quand vous survolez le bouton */
+    margin-left: 10px;
+    }
+.lieninscr{
+  text-decoration: none;
+
+}
+
+.lieninscr:link{
+  color: inherit;
+}
+
+
+  form{
+    margin-bottom: 100px;
+  }
+
+  .grey{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+
+
+  .img{
+    width: 300 px;
+    height: 300px;
+    border-radius: 20px;
+  }
+  .bloc {
+    display: flex;
+    flex-direction: row; /* aligne les éléments de gauche à droite */
+    justify-content: center; /* ajoute de l'espace entre les éléments */
+    align-items: center; /* aligne les éléments au centre sur l'axe vertical */
+    gap: 150px;
+    margin-bottom: 100px;
+  }
+
+  .titregras{
+    width: 250px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .titrenrml{
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+
+.fa-instagram{
+  color: #E1306C;
+ font-size: 48px;
+ margin-right: 10px;
+}
+
+.fa-facebook{
+  color: #3b5998;
+ font-size: 48px;
+ margin-right: 10px;
+}
+
+.fa-twitter{
+  color: #1DA1F2;
+ font-size: 48px;
+}
+
+.textfooter{
+  font-size: 20px;
+}
+
+footer{background-color: aqua;}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+ 
+}
+
+.copyright{
+  align-self: flex-end;
+}
+
+.social-icons{
+  margin-top: 10px;
+}
+
+.nouscontacter{
+  border: 1px solid black;
+    border-radius: 8px;
+    text-decoration: none;
+    
+    transition: all 0.2s ease 0s;
+    padding: 10px;
+}
+
+.nouscontacter:hover {
+  background-color: beige;
+  
+  cursor: pointer;
+}
+
